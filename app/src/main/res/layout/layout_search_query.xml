@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <!--android:background="#fff0f0f0"-->
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ActionButton"/>
+
+    <ImageButton
+        android:id="@+id/psv_search_action_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.ActionButton"/>
+
+    <com.ltao.pdict.robototextview.RobotoEditText
+        android:id="@+id/psv_search_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="12dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        app:robotoFontFamily="roboto"
+        app:robotoTextWeight="light"
+        app:robotoTextStyle="normal"
+        android:textColor="@color/common_text_color_gray_grey"
+        android:textColorHint="@color/light_gray"
+        android:selectAllOnFocus="true"
+        android:ellipsize="end"
+        android:inputType="textNoSuggestions"
+        android:background="@null"/>
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/psv_search_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="48dp"/>
+
+</LinearLayout>

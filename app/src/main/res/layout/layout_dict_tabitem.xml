@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ltao.pdict.robototextview.RobotoTextView
+        android:id="@+id/tab_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/bg_text_tabitem"
+        app:robotoFontFamily="roboto"
+        app:robotoTextWeight="light"
+        app:robotoTextStyle="normal"
+        android:text="Longken"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>
