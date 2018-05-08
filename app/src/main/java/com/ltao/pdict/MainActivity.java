@@ -23,6 +23,7 @@ import com.ltao.pdict.utils.ViewUtils;
 import com.ltao.pdict.view.PowerSearchView;
 
 // Font searching https://material.io/guidelines/resources/roboto-noto-fonts.html
+//https://code.google.com/archive/p/lingoes-extractor/
 public class MainActivity extends AppCompatActivity implements ActionMenuView.OnMenuItemClickListener{
 
     private PowerSearchView mSearchView;
